@@ -13,12 +13,19 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background: #111;
+  background-image: url("../picture/bg_2.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   -webkit-perspective: 1000px;
   perspective: 1000px;
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
 }
+
+#heart_icon {
+  color: red;
+}
+
 #drag-container,
 #spin-container {
   position: relative;
@@ -62,7 +69,7 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) rotateX(90deg);
   transform: translate(-50%, -50%) rotateX(90deg);
-  color: #fff;
+  color: red;
 }
 #ground {
   width: 900px;
